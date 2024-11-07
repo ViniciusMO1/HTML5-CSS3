@@ -35,7 +35,7 @@ header {
     min-height: 150px;
     text-align: center;
     padding-top: 20px;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    background-image: linear-gradient(to bottom, rgba(90, 90, 243, 0.356), rgba(31, 31, 252, 0.788));
 }
 header > h1 {
     color: white;
