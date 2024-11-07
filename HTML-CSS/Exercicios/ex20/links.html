@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    a {
+        color: blue;
+        text-decoration: none;/*TIRA O SUBLINHADO DOS LINKS*/
+        font-weight: bold; /*NEGRITO*/
+    }
+    a:visited{ /*MUDAR A COR DEPOIS DO LINK SER VISITADO*/
+        color: rgb(255, 0, 179);
+    }
+    a:hover {
+        color: black;
+        text-decoration: underline ; 
+    }
+    a:active { /*LINK ATIVO, QUANDO PASSA O MOUSE EM CIMA DO LINK*/
+        color: chartreuse;
+    }
+    a::before{
+        content: '->';
+    }
+    a::after{
+        content: '<-';
+    }
+    </style>
+</head>
+<body> 
+    <h1>Personaliizando Links</h1>
+<ul>
+    <li><a href="https://github.com/ViniciusMO1">Repositorio GitHub</a></li>
+    <li><a href="https://www.youtube.com/@Dev_ViniciusMO1">Canal do YouTube</a></li>
+    <li><a href="https://www.cursoemvideo.com/minha-conta/">Site do Curso em Video</a></li>
+</ul>    
+
+</body>
+</html>
