@@ -1,5 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+:root{
+  --font1: Verdana, Tahoma, sans-serif;
+  --font2: 'Passion One', cursive;
+  --font3: 'Sriracha', cursive;
+}
 *{
   padding: 0%;
   margin: 0%;
@@ -7,6 +14,7 @@
 html,body{
   background-color: rgb(51, 51, 51);
   min-height: 100% ou /*100vh*/;
+  font-family: var(--font1);
 }
 header{
   background-color: black;
@@ -17,9 +25,12 @@ header > h1 {
   padding-top: 50px;
   /*text-transform: uppercase - PARA COLOCAR TUDO EM CAIXA ALTA*/
   font-variant: small-caps;
+  font-family: var(--font2);
+  font-size: 10vw;
 }
 header > p{
   padding-bottom: 50px;
+
 }
 header a, footer a{
   color:white;
@@ -34,6 +45,8 @@ section{
   padding-bottom: 10vh;
   line-height: 2em; /*ESPACAMENTO  DAS LETRAS*/
   padding-left: 30px;
+  font-family: var(--font3);
+  font-size: 4vw;
 }
 section.normal{
   background-color: white;
@@ -44,7 +57,8 @@ section.imagem{
   color: white;
 }
 section.imagem > p{
-  width: 400px;
+  display: inline-block ;/*OU width: 400px;*/
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.253);
   color: white
 }
