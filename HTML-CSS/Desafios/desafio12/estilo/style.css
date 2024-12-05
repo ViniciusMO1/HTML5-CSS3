@@ -30,7 +30,6 @@ header > h1 {
 }
 header > p{
   padding-bottom: 50px;
-
 }
 header a, footer a{
   color:white;
@@ -60,7 +59,20 @@ section.imagem > p{
   display: inline-block ;/*OU width: 400px;*/
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.253);
-  color: white
+  color: white;
+  text-shadow: 1px 1px black;
+  
+}
+section#img01{
+  background-position: right center;
+  background-image: url(../imagens/background001.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+section#img02{
+  background-image: url(../imagens/background002.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 footer{
   color: white;
